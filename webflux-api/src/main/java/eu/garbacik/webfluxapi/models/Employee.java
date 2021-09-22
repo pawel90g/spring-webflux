@@ -1,0 +1,12 @@
+package eu.garbacik.webfluxapi.models;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+
+@Data
+@AllArgsConstructor
+public class Employee {
+    private Integer id;
+    private String name;
+    private String email;
+}
